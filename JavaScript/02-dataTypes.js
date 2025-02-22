@@ -80,3 +80,9 @@ var now = "Now in "
 var three = 3
 var d  = "D!"
 console.log(now+three+d)
+
+// Task-6
+var counter = 0
+counter +=5
+counter += 3
+console.log(counter)

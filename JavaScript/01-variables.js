@@ -28,3 +28,33 @@ console.log(petDog,"says",dogSound)
 console.log(petCat,"says",catSound)
 catSound = 'meow'
 console.log(petCat,'now says',catSound)
+
+
+
+
+// var let const
+
+var user;
+console.log(user)
+var user= "Teja"
+var user="Ravi"
+console.log(user)
+
+// let
+
+let user1;
+console.log(user1)
+
+user1 = 'Raviteja'
+console.log(user1)
+
+
+// const
+
+const user2;
+console.log(user2)
+user2 = 'Raviteja'
+console.log(user2)
+const user3 = 'Ravi'
+console.log(user3)
+
