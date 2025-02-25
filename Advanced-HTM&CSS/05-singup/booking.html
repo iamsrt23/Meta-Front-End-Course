@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking</title>
+</head>
+<body>
+  <header>
+    <img src="download.png" alt="Little Lemon Logo">
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="location.html">Location</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h1>Book a Table</h1>
+    <form method="POST" >
+      <fieldset id="size">
+        <label><input type="radio" value="2" name="size"> 2-PersonTable</label>
+        <label><input type="radio" value="4" name="size"> 4-PersonTable</label>
+        <label> <input type="radio" value="6" name="size"> 6-PersonTable</label>
+      </fieldset>
+      <fieldset id="location" >
+        <label><input type="radio" value="indoor" name="location" checked>Indoors</label>
+        <label><input type="radio" value="outdoor" name="location">Outdoors</label>
+        
+        
+      </fieldset>
+      <button type="submit">Book Table</button>
+
+    </form>
+  </main>
+  <footer>
+    <p>Copyright © Little Lemon</p>
+  </footer>
+</body>
+</html>

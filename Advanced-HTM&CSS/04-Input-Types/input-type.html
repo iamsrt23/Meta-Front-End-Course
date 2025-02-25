@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Input Types</title>
+</head>
+<body>
+  <!-- Button -->
+  <button onclick="alert('Are you sure want to Continue')">
+    <img src="Button.jpg" alt="Submit the Form" width="200px" width="150px">
+  </button><br/>
+  <!-- radio -->
+  <input type="radio" id="light" name="theme" value="light" />
+  <label for="light">Light</label>
+  <input type="radio" id="dark" name="theme" value="dark" />
+  <label for="dark">Dark</label><br/>
+  <!-- submit -->
+  <form action="facebook.com" method="POST">
+  <input type="submit" value="submit" >
+  </form><br/>
+  <!-- Text -->
+  <label for="fname">FirstName:</label>
+  <input type="text" id="fname" name="fname"><br/>
+  <!-- password -->
+  <label for="pwd">Password:</label> 
+  <input type="password" id="pwd" name="pwd"> <br/>
+  <!-- date -->
+  <label for="dob">Date of birth:</label>
+  <input type="date" id="dob" name="date of birth"><br/>
+  <!-- datetimeLocal -->
+  <label for="birthdayTime">Birthday</label>
+  <input type="datetime-local" id="birthdayTime" name="birthdayTime"><br/>
+  <!-- Email -->
+  <label for="Email">Email</label> 
+  <input type="email" id="Email" name="Email"> <br/>
+  <!-- File -->
+  <label for="file">Select a File:</label> 
+  <input type="file" id="file" name="file"> <br/>
+  <!-- Hidden -->
+  <input type="hidden" id="custId" name="custId" value="3487"><br/>
+  <!-- Image -->
+  <input type="image" src="submit_img.png" alt="submit" width="48" height="48" ><br/>
+  <!--Number  -->
+  <input type="number" id="quantity" name="quantity" min="1" max="5" ><br/>
+  <!-- Range -->
+  <label for="volume">Volume:</label>
+  <input type="range" id="volume" name="volume" min="0" max="10"><br/>
+  <!-- Reset -->
+  <input type="reset" ><br/>
+  <!-- Search -->
+  <input type="search" id="gsearch" name="gsearch" ><br/>
+  <!-- Time -->
+  <label for="appt">Select a time:</label>
+  <input type="time" id="appt" name="appt"><br/>
+  <!-- Telephonenumber -->
+  <label for="phone">Enter your phone number:</label>
+  <input type="tel" id="phone" name="phone" pattern="[+]{1}[0-9]{11,14}"><br/>
+  <!-- Url -->
+  <label for="homepage">Add your homepage:</label>
+  <input type="url" id="homepage" name="homepage"><br/>
+  <!-- Week -->
+  <label for="week">Select a week:</label>
+<input type="week" id="week" name="week"><br/>
+
+<!-- Month -->
+<label for="bdaymonth">Birthday (month and year):</label>
+<input type="month" id="bdaymonth" name="bdaymonth" min="1930-01" value="2000-01"><br/>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

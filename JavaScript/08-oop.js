@@ -62,3 +62,21 @@ var purchase4 = {
 
 purchase4.totalPrice()
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -124,5 +124,5 @@ class Gym{
 
 var boxingGym = new Gym('7-22','right corner','left corner')
 console.log(boxingGym.openHrs)
-console.log(boxingGym.StationaryBike)
+console.log(boxingGym.StationaryBike )
 console.log(boxingGym.Treadmill)
