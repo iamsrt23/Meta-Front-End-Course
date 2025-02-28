@@ -1,0 +1,11 @@
+/* check chrome version 29 above
+
+@media screen and(-webkit-device-pixel-ratio:0) and(min-resolution:.001dpcm) */
+
+
+div p {
+  color: red;
+}
+div+p {
+  color: blue;
+}
