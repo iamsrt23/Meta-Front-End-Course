@@ -10,11 +10,11 @@ const App = () => {
   const date = new Date()
   return (
     <div>
-      {/* <Child  message={date.toLocaleTimeString()}/>
+      <Child  message={date.toLocaleTimeString()}/>
       <Hooks />
       <Form />
       <UserefHook />
-      <State /> */}
+      <State />
       <Propdrilling msg={"I passed through the Header and the Wrapper and I reached the Button component"} />
 
     </div>
